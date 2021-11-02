@@ -1,15 +1,12 @@
  runBuddy
  
- website 
-https://jcward31.github.io/runBuddy/
-
-purpose
+ ##purpose
 A website that offers fitness training services.
 
-built with 
+##built with 
 html
 css
 
-contribution
+##contribution
 
 Jared C Ward
