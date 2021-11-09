@@ -8,6 +8,9 @@
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
 
@@ -26,48 +29,55 @@ header {
 }
 
     header nav {
-        float: right;
         margin: 7px 0;
-      display:inline;
     }
 
+    header nav ul {
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+    }
    
-header nav ul li a {
-  margin: 0 30 px;
-    font-weight: lighter;
-    font-size: 22px;
-}
 
-header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-    display: inline;
-  }
+ header nav ul li a {
+   margin:0 30px;
+   font-weight: lighter;
+   font-size: 1.55vw;
+ }
+
+
+
+    
+
+
+
+
+
+
 
   body {
   color: #39a6b2
-  font-family: Helvetica, Arial, sans-serif;
   }
 
   footer {
       background: #fce138;
       width: 100%;
       padding: 40px 35px;
+      justify-content: space-between;
+      flex-wrap:wrap;
   }
 
   footer h2 {
-      display: inline;
-      color: 024e76;
+      color: #024e76;
       font-size: 30px;
       margin: 0;
   }
 
   footer div {
-      float: right;
-      line-height: 1.5;
-      text-align: right;
+ line-height: 1.5;
+ text-align: right;
   }
   
   footer a {
@@ -80,7 +90,7 @@ header h1 {
   }
 
   .hero {
-      background-image: url("hero-bg.jpg");
+      background-image: url("flipped-hero-image.jpg");
       height: 600px;
       background-size: cover;
       background-position: center;
@@ -154,7 +164,7 @@ header h1 {
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
-    display: inline;
+    display: inline-block;
     border-bottom: 3px solid;
   }
   
